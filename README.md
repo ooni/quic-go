@@ -12,6 +12,9 @@ We started this fork at lucas-clemente/quic-go@v0.27.0. We're not going to publi
 all the upstream tags for simplicity. When merging from upstream, we'll clarify which
 tags we're merging.
 
+(You should not depend on this repository! As mentioned, this is an experiment and
+we may archive this repository anytime soon!)
+
 - - -
 
 <img src="docs/quic.png" width=303 height=124>
