@@ -10,9 +10,9 @@ import (
 	reflect "reflect"
 
 	gomock "github.com/golang/mock/gomock"
-	protocol "github.com/lucas-clemente/quic-go/internal/protocol"
-	wire "github.com/lucas-clemente/quic-go/internal/wire"
-	logging "github.com/lucas-clemente/quic-go/logging"
+	protocol "github.com/ooni/quic-go/internal/protocol"
+	wire "github.com/ooni/quic-go/internal/wire"
+	logging "github.com/ooni/quic-go/logging"
 )
 
 // MockTracer is a mock of Tracer interface.

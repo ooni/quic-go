@@ -10,7 +10,7 @@ import (
 	reflect "reflect"
 
 	gomock "github.com/golang/mock/gomock"
-	quic "github.com/lucas-clemente/quic-go"
+	quic "github.com/ooni/quic-go"
 )
 
 // MockEarlyListener is a mock of EarlyListener interface.

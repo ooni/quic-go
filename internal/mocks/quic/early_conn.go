@@ -10,8 +10,8 @@ import (
 	reflect "reflect"
 
 	gomock "github.com/golang/mock/gomock"
-	quic "github.com/lucas-clemente/quic-go"
-	qerr "github.com/lucas-clemente/quic-go/internal/qerr"
+	quic "github.com/ooni/quic-go"
+	qerr "github.com/ooni/quic-go/internal/qerr"
 )
 
 // MockEarlyConnection is a mock of EarlyConnection interface.

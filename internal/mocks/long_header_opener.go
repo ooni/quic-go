@@ -8,7 +8,7 @@ import (
 	reflect "reflect"
 
 	gomock "github.com/golang/mock/gomock"
-	protocol "github.com/lucas-clemente/quic-go/internal/protocol"
+	protocol "github.com/ooni/quic-go/internal/protocol"
 )
 
 // MockLongHeaderOpener is a mock of LongHeaderOpener interface.

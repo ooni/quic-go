@@ -8,11 +8,11 @@ import (
 
 	"github.com/golang/mock/gomock"
 
-	"github.com/lucas-clemente/quic-go/internal/flowcontrol"
-	"github.com/lucas-clemente/quic-go/internal/mocks"
-	"github.com/lucas-clemente/quic-go/internal/protocol"
-	"github.com/lucas-clemente/quic-go/internal/qerr"
-	"github.com/lucas-clemente/quic-go/internal/wire"
+	"github.com/ooni/quic-go/internal/flowcontrol"
+	"github.com/ooni/quic-go/internal/mocks"
+	"github.com/ooni/quic-go/internal/protocol"
+	"github.com/ooni/quic-go/internal/qerr"
+	"github.com/ooni/quic-go/internal/wire"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

@@ -6,9 +6,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/lucas-clemente/quic-go/internal/protocol"
-	"github.com/lucas-clemente/quic-go/internal/qtls"
-	"github.com/lucas-clemente/quic-go/internal/wire"
+	"github.com/ooni/quic-go/internal/protocol"
+	"github.com/ooni/quic-go/internal/qtls"
+	"github.com/ooni/quic-go/internal/wire"
 )
 
 var (

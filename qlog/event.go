@@ -6,10 +6,10 @@ import (
 	"net"
 	"time"
 
-	"github.com/lucas-clemente/quic-go"
-	"github.com/lucas-clemente/quic-go/internal/protocol"
-	"github.com/lucas-clemente/quic-go/internal/utils"
-	"github.com/lucas-clemente/quic-go/logging"
+	"github.com/ooni/quic-go"
+	"github.com/ooni/quic-go/internal/protocol"
+	"github.com/ooni/quic-go/internal/utils"
+	"github.com/ooni/quic-go/logging"
 
 	"github.com/francoispqt/gojay"
 )

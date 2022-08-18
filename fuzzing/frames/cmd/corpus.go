@@ -6,10 +6,10 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/lucas-clemente/quic-go"
-	"github.com/lucas-clemente/quic-go/fuzzing/internal/helper"
-	"github.com/lucas-clemente/quic-go/internal/protocol"
-	"github.com/lucas-clemente/quic-go/internal/wire"
+	"github.com/ooni/quic-go"
+	"github.com/ooni/quic-go/fuzzing/internal/helper"
+	"github.com/ooni/quic-go/internal/protocol"
+	"github.com/ooni/quic-go/internal/wire"
 )
 
 const version = protocol.VersionTLS

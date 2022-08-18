@@ -8,9 +8,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/lucas-clemente/quic-go/internal/protocol"
-	"github.com/lucas-clemente/quic-go/internal/qerr"
-	"github.com/lucas-clemente/quic-go/quicvarint"
+	"github.com/ooni/quic-go/internal/protocol"
+	"github.com/ooni/quic-go/internal/qerr"
+	"github.com/ooni/quic-go/quicvarint"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

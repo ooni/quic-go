@@ -10,7 +10,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/lucas-clemente/quic-go"
+	"github.com/ooni/quic-go"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

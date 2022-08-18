@@ -3,8 +3,8 @@ package quic
 import (
 	"errors"
 
-	"github.com/lucas-clemente/quic-go/internal/utils"
-	"github.com/lucas-clemente/quic-go/internal/wire"
+	"github.com/ooni/quic-go/internal/utils"
+	"github.com/ooni/quic-go/internal/wire"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

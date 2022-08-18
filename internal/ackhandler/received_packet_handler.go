@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/lucas-clemente/quic-go/internal/protocol"
-	"github.com/lucas-clemente/quic-go/internal/utils"
-	"github.com/lucas-clemente/quic-go/internal/wire"
+	"github.com/ooni/quic-go/internal/protocol"
+	"github.com/ooni/quic-go/internal/utils"
+	"github.com/ooni/quic-go/internal/wire"
 )
 
 type receivedPacketHandler struct {

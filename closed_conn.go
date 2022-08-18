@@ -3,8 +3,8 @@ package quic
 import (
 	"sync"
 
-	"github.com/lucas-clemente/quic-go/internal/protocol"
-	"github.com/lucas-clemente/quic-go/internal/utils"
+	"github.com/ooni/quic-go/internal/protocol"
+	"github.com/ooni/quic-go/internal/utils"
 )
 
 // A closedLocalConn is a connection that we closed locally.

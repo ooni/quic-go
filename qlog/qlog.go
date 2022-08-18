@@ -11,10 +11,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/lucas-clemente/quic-go/internal/protocol"
-	"github.com/lucas-clemente/quic-go/internal/utils"
-	"github.com/lucas-clemente/quic-go/internal/wire"
-	"github.com/lucas-clemente/quic-go/logging"
+	"github.com/ooni/quic-go/internal/protocol"
+	"github.com/ooni/quic-go/internal/utils"
+	"github.com/ooni/quic-go/internal/wire"
+	"github.com/ooni/quic-go/logging"
 
 	"github.com/francoispqt/gojay"
 )
@@ -33,7 +33,7 @@ func init() {
 		return
 	}
 	for _, d := range info.Deps {
-		if d.Path == "github.com/lucas-clemente/quic-go" {
+		if d.Path == "github.com/ooni/quic-go" {
 			quicGoVersion = d.Version
 			if d.Replace != nil {
 				if len(d.Replace.Version) > 0 {

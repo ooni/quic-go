@@ -9,10 +9,10 @@ import (
 	"net"
 	"time"
 
-	"github.com/lucas-clemente/quic-go"
-	"github.com/lucas-clemente/quic-go/integrationtests/tools/israce"
-	"github.com/lucas-clemente/quic-go/internal/protocol"
-	"github.com/lucas-clemente/quic-go/logging"
+	"github.com/ooni/quic-go"
+	"github.com/ooni/quic-go/integrationtests/tools/israce"
+	"github.com/ooni/quic-go/internal/protocol"
+	"github.com/ooni/quic-go/logging"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

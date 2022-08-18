@@ -7,9 +7,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/lucas-clemente/quic-go/internal/handshake"
-	"github.com/lucas-clemente/quic-go/internal/protocol"
-	"github.com/lucas-clemente/quic-go/logging"
+	"github.com/ooni/quic-go/internal/handshake"
+	"github.com/ooni/quic-go/internal/protocol"
+	"github.com/ooni/quic-go/logging"
 )
 
 // The StreamID is the ID of a QUIC stream.

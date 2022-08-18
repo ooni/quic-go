@@ -13,12 +13,12 @@ import (
 	"os"
 	"sync"
 
-	"github.com/lucas-clemente/quic-go"
-	"github.com/lucas-clemente/quic-go/http3"
-	"github.com/lucas-clemente/quic-go/internal/testdata"
-	"github.com/lucas-clemente/quic-go/internal/utils"
-	"github.com/lucas-clemente/quic-go/logging"
-	"github.com/lucas-clemente/quic-go/qlog"
+	"github.com/ooni/quic-go"
+	"github.com/ooni/quic-go/http3"
+	"github.com/ooni/quic-go/internal/testdata"
+	"github.com/ooni/quic-go/internal/utils"
+	"github.com/ooni/quic-go/logging"
+	"github.com/ooni/quic-go/qlog"
 )
 
 func main() {

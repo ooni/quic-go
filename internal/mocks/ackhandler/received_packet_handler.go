@@ -9,8 +9,8 @@ import (
 	time "time"
 
 	gomock "github.com/golang/mock/gomock"
-	protocol "github.com/lucas-clemente/quic-go/internal/protocol"
-	wire "github.com/lucas-clemente/quic-go/internal/wire"
+	protocol "github.com/ooni/quic-go/internal/protocol"
+	wire "github.com/ooni/quic-go/internal/wire"
 )
 
 // MockReceivedPacketHandler is a mock of ReceivedPacketHandler interface.
