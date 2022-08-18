@@ -1,5 +1,19 @@
 # A QUIC implementation in pure Go
 
+**Note**: this repository is a temporary fork of
+[lucas-clemente/quic-go](https://github.com/lucas-clemente/quic-go) to experiment
+with and figure out our needs in terms of mapping an http3 request with the five tuple
+used by the underlying http3 connection. We described this experiment in the
+[ooni/probe#2220](https://github.com/ooni/probe/issues/2220) issue. The general
+plan here is to understand what we exactly need and then see whether it's possible
+to upstream the changes.
+
+We started this fork at lucas-clemente/quic-go@v0.27.0. We're not going to publish
+all the upstream tags for simplicity. When merging from upstream, we'll clarify which
+tags we're merging.
+
+- - -
+
 <img src="docs/quic.png" width=303 height=124>
 
 [![PkgGoDev](https://pkg.go.dev/badge/github.com/lucas-clemente/quic-go)](https://pkg.go.dev/github.com/lucas-clemente/quic-go)
